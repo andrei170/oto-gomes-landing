@@ -1,226 +1,394 @@
 <!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>OTO Gomes. Tax-Aware Crypto Structuring.</title>
-<meta name="description" content="16 years tax accounting. 14 years crypto. Structured crypto education for professionals who want to build wealth without a tax disaster.">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OTO Gomes &middot; Tax-Aware Crypto Structuring &middot; The Rare Operator Overlap</title>
+<meta name="description" content="16 years tax accounting. 14 years crypto. Private trust + common law structuring. The rare operator overlap, taught by the educator who lived the cycle. Education, not personalized advice.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="OTO Gomes &middot; Tax-Aware Crypto Structuring">
+<meta property="og:description" content="The rare operator: 16 years tax accounting, 14 years crypto, one teacher.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://andrei170.github.io/oto-gomes-landing/">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 <style>
-*{margin:0;padding:0;box-sizing:border-box}
-:root{--bg:#041812;--bg-2:#08281e;--surface:#0c382a;--line:rgba(16,185,129,.18);--text:#ecfff5;--muted:#7fa093;--accent:#10b981;--accent-2:#34d399;--glow:#6ee7b7;--gold:#d4a84c}
-html{scroll-behavior:smooth}
-body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;line-height:1.6;overflow-x:hidden}
-body::before{content:'';position:fixed;inset:0;background-image:radial-gradient(circle,rgba(16,185,129,.022) 1px,transparent 1px);background-size:28px 28px;pointer-events:none;z-index:0}
-body::after{content:'';position:fixed;top:-30%;left:-10%;width:70%;height:80%;background:radial-gradient(circle,rgba(16,185,129,.07) 0%,transparent 60%);pointer-events:none;z-index:0}
-.container{max-width:1180px;margin:0 auto;padding:0 24px;position:relative;z-index:1}
-nav{padding:28px 0;border-bottom:1px solid var(--line);position:sticky;top:0;background:rgba(4,24,18,.94);backdrop-filter:blur(14px);z-index:100}
-.nav-inner{display:flex;justify-content:space-between;align-items:center}
-.logo{font-weight:800;font-size:22px;letter-spacing:-.02em}
-.logo span{color:var(--gold)}
-.nav-cta{padding:10px 22px;background:linear-gradient(135deg,var(--accent) 0%,var(--accent-2) 100%);color:#041812;border-radius:8px;text-decoration:none;font-weight:700;font-size:14px}
-section{padding:100px 0;position:relative}
-.eyebrow{display:inline-block;padding:6px 14px;background:rgba(16,185,129,.08);border:1px solid rgba(16,185,129,.3);border-radius:20px;font-size:12px;font-weight:600;color:var(--accent-2);letter-spacing:.15em;text-transform:uppercase;margin-bottom:24px}
-h1{font-size:clamp(42px,6vw,74px);font-weight:800;line-height:1.05;letter-spacing:-.03em;margin-bottom:24px}
-h1 em{font-style:normal;background:linear-gradient(135deg,var(--accent) 0%,var(--glow) 50%,var(--gold) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent}
-h2{font-size:clamp(32px,4vw,48px);font-weight:700;line-height:1.15;letter-spacing:-.02em;margin-bottom:20px}
-h3{font-size:22px;font-weight:600;margin-bottom:14px}
-p{color:var(--muted);font-size:17px;max-width:680px}
-.hero{padding-top:80px;text-align:center}
-.hero p{font-size:20px;margin:0 auto 40px;max-width:720px}
-.cta-primary{display:inline-block;padding:18px 38px;background:linear-gradient(135deg,var(--accent) 0%,var(--accent-2) 100%);color:#041812;text-decoration:none;border-radius:12px;font-weight:700;font-size:16px;box-shadow:0 10px 40px rgba(16,185,129,.3);transition:.2s}
-.cta-primary:hover{transform:translateY(-2px)}
-.cred-banner{display:inline-flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:14px;padding:12px 24px;background:rgba(16,185,129,.08);border:1px solid rgba(16,185,129,.3);border-radius:999px;font-size:13px;color:var(--accent-2);font-weight:600;margin-bottom:24px;letter-spacing:.05em}
-.cred-banner span{opacity:.4}
-.vsl-box{max-width:900px;margin:60px auto;aspect-ratio:16/9;background:linear-gradient(135deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:16px;display:flex;align-items:center;justify-content:center;position:relative}
-.vsl-box::before{content:'';position:absolute;inset:0;background:radial-gradient(circle at center,rgba(16,185,129,.08) 0%,transparent 60%)}
-.play-btn{width:88px;height:88px;border-radius:50%;background:rgba(16,185,129,.15);border:2px solid var(--accent);display:flex;align-items:center;justify-content:center;z-index:1}
-.play-btn svg{width:32px;height:32px;fill:var(--accent-2);margin-left:4px}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:30px;margin:80px 0 0;padding:40px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.stat-num{font-size:40px;font-weight:800;background:linear-gradient(135deg,var(--accent) 0%,var(--glow) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:-.03em}
-.stat-label{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.1em;margin-top:6px}
-.problem-grid,.pillar-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:50px}
-.card{padding:36px;background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:16px;transition:.3s}
-.card:hover{border-color:rgba(16,185,129,.4);transform:translateY(-4px)}
-.card-num{font-size:14px;color:var(--accent-2);font-weight:700;letter-spacing:.15em;text-transform:uppercase;margin-bottom:16px}
-.card h3{color:var(--text)}
-.card p{font-size:15px}
-.divider{height:1px;background:linear-gradient(90deg,transparent 0%,var(--line) 50%,transparent 100%)}
-.lead-capture{background:linear-gradient(135deg,rgba(16,185,129,.08) 0%,rgba(52,211,153,.03) 100%);border:1px solid rgba(16,185,129,.2);border-radius:24px;padding:70px 60px;text-align:center;margin:80px 0}
-.lead-capture h2{max-width:640px;margin:0 auto 20px}
-.form-row{display:flex;gap:12px;max-width:520px;margin:36px auto 0}
-.form-row input{flex:1;padding:18px 22px;background:var(--bg);border:1px solid var(--line);border-radius:12px;color:var(--text);font-size:15px;font-family:inherit}
-.form-row input:focus{outline:none;border-color:var(--accent)}
-.form-row button{padding:18px 32px;background:linear-gradient(135deg,var(--accent) 0%,var(--accent-2) 100%);color:#041812;border:none;border-radius:12px;font-weight:700;font-size:15px;cursor:pointer;font-family:inherit}
-.offer-box{background:linear-gradient(135deg,#08281e 0%,#0e3d2e 100%);border:1px solid rgba(16,185,129,.25);border-radius:24px;padding:60px;margin-top:40px}
-.offer-grid{display:grid;grid-template-columns:1.2fr 1fr;gap:60px;align-items:center}
-.offer-price{font-size:46px;font-weight:800;background:linear-gradient(135deg,var(--accent) 0%,var(--glow) 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;letter-spacing:-.03em;line-height:1.1}
-.offer-price small{font-size:16px;color:var(--muted);font-weight:500;-webkit-text-fill-color:var(--muted);display:block;margin-top:8px}
-.feature-list{list-style:none;margin-top:24px}
-.feature-list li{padding:12px 0;color:var(--text);display:flex;align-items:flex-start;gap:12px;font-size:15px}
-.feature-list li::before{content:'\2713';color:var(--accent-2);font-weight:700;flex-shrink:0}
-.bio{display:grid;grid-template-columns:1fr 1.5fr;gap:60px;align-items:center}
-.bio-img{aspect-ratio:4/5;background:linear-gradient(135deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:20px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:14px}
-.testimonial-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;margin-top:50px}
-.testimonial{padding:32px;background:linear-gradient(180deg,var(--surface) 0%,var(--bg-2) 100%);border:1px solid var(--line);border-radius:16px}
-.testimonial p{font-size:15px;font-style:italic;margin-bottom:16px;max-width:none}
-.testimonial .t-name{font-size:14px;color:var(--accent-2);font-weight:600;font-style:normal}
-.faq-item{border-bottom:1px solid var(--line);padding:24px 0;cursor:pointer}
-.faq-q{display:flex;justify-content:space-between;align-items:center;font-weight:600;font-size:18px;color:var(--text)}
-.faq-plus{width:24px;height:24px;position:relative;flex-shrink:0}
-.faq-plus::before,.faq-plus::after{content:'';position:absolute;background:var(--accent-2);top:50%;left:50%;transition:.3s}
-.faq-plus::before{width:14px;height:2px;transform:translate(-50%,-50%)}
-.faq-plus::after{width:2px;height:14px;transform:translate(-50%,-50%)}
-.faq-item.open .faq-plus::after{transform:translate(-50%,-50%) rotate(90deg);opacity:0}
-.faq-a{max-height:0;overflow:hidden;transition:.3s}
-.faq-item.open .faq-a{max-height:320px;padding-top:14px}
-.risk-disclosure{background:rgba(16,185,129,.04);border:1px solid rgba(16,185,129,.15);border-radius:12px;padding:20px 26px;margin:40px auto 0;max-width:900px;text-align:left}
-.risk-disclosure p{font-size:13px;color:var(--muted);line-height:1.6;margin:0 auto;max-width:none}
-.footer{padding:60px 0;border-top:1px solid var(--line);text-align:center}
-.footer p{margin:0 auto;font-size:14px}
-@media(max-width:768px){.problem-grid,.pillar-grid,.stats,.testimonial-grid{grid-template-columns:1fr}.offer-grid,.bio{grid-template-columns:1fr}.lead-capture,.offer-box{padding:40px 24px}.form-row{flex-direction:column}section{padding:70px 0}.stats{gap:20px}}
-.reveal{opacity:0;transform:translateY(30px);transition:.8s}
-.reveal.in{opacity:1;transform:translateY(0)}
-</style></head><body>
-
-<nav><div class="container nav-inner"><div class="logo">OTO<span>GOMES</span></div><a href="#apply" class="nav-cta">Apply Now</a></div></nav>
-
-<section class="hero"><div class="container">
-<div class="cred-banner reveal">16 YEARS TAX ACCOUNTING<span>|</span>14 YEARS CRYPTO<span>|</span>2,500+ COMMUNITY</div>
-<h1 class="reveal">Crypto With A <em>Tax Structure,</em><br>Not A Tax Disaster</h1>
-<p class="reveal">Most crypto coaches have never filed a complex return. Most tax professionals do not understand crypto. OTO Gomes has done both for over a decade. That combination is rare. It is the reason his students do not end year one with an audit letter.</p>
-<div class="vsl-box reveal"><div class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></div></div>
-<a href="#apply" class="cta-primary reveal">Watch The Free Training</a>
-<div class="stats reveal">
-<div><div class="stat-num">16yr</div><div class="stat-label">Tax Accounting</div></div>
-<div><div class="stat-num">14yr</div><div class="stat-label">Crypto Experience</div></div>
-<div><div class="stat-num">2,500+</div><div class="stat-label">Community Members</div></div>
-<div><div class="stat-num">100+</div><div class="stat-label">Cohort Graduates</div></div>
+  *{margin:0;padding:0;box-sizing:border-box}
+  :root{--bg-deep:#fbfbfd;--bg-elev:#eef0f7;--bg-card:#ffffff;--bg-dark:#011748;--bg-dark-2:#0a1d5e;--navy:#011748;--green:#00a866;--green-bright:#00d084;--green-dark:#007a4d;--purple:#7c2ad3;--purple-bright:#9b51e0;--blue-accent:#2673ed;--text-primary:#0a0a16;--text-secondary:#3a3f55;--text-muted:#737793;--text-on-dark:#ece9e3;--border:rgba(1,23,72,0.16);--border-strong:rgba(1,23,72,0.42);--border-on-dark:rgba(0,208,132,0.32);--accent-soft:rgba(0,168,102,0.06);--purple-soft:rgba(124,42,211,0.06)}
+  html{scroll-behavior:smooth}
+  body{font-family:'Inter',-apple-system,sans-serif;background:var(--bg-deep);color:var(--text-primary);line-height:1.65;overflow-x:hidden}
+  body::before{content:'';position:fixed;inset:0;background:radial-gradient(circle at 10% 0%,rgba(0,208,132,0.06),transparent 50%),radial-gradient(circle at 90% 100%,rgba(155,81,224,0.05),transparent 50%);pointer-events:none;z-index:0}
+  .container{max-width:1100px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  .container-narrow{max-width:780px;margin:0 auto;padding:0 28px;position:relative;z-index:1}
+  h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;letter-spacing:-0.01em;line-height:1.18;color:var(--text-primary)}
+  nav{position:fixed;top:0;left:0;right:0;padding:16px 0;background:rgba(251,251,253,0.92);backdrop-filter:blur(18px);border-bottom:1px solid var(--border);z-index:100}
+  .nav-inner{display:flex;justify-content:space-between;align-items:center;max-width:1100px;margin:0 auto;padding:0 28px}
+  .logo{font-family:'Cormorant Garamond',serif;font-size:22px;font-weight:600;letter-spacing:0.04em;color:var(--text-primary)}
+  .logo em{color:var(--green);font-style:italic;font-weight:500}
+  .nav-cta{padding:10px 22px;background:var(--green);color:#fff;border-radius:2px;font-size:12px;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;text-decoration:none;transition:background 0.3s ease}
+  .nav-cta:hover{background:var(--green-dark)}
+  .hero{padding:130px 0 50px;text-align:center}
+  .eyebrow{display:inline-block;padding:8px 18px;background:var(--accent-soft);border:1px solid var(--border-strong);border-radius:100px;font-size:11px;font-weight:500;letter-spacing:0.18em;text-transform:uppercase;color:var(--green);margin-bottom:28px}
+  .hero h1{font-size:clamp(40px,5.5vw,70px);line-height:1.08;margin:0 auto 22px;max-width:920px;text-align:center;text-wrap:balance}
+  .hero h1 em{color:var(--green);font-style:italic;font-weight:400}
+  .hero-sub{font-size:18px;color:var(--text-secondary);max-width:720px;margin:0 auto 28px;line-height:1.65;text-align:center;text-wrap:pretty}
+  .hero-meta{text-align:center;margin:0 auto 40px;font-size:12px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-muted)}
+  .hero-meta span{margin:0 14px}
+  .video-label{text-align:center;font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--green);margin-bottom:14px;font-weight:600}
+  .video-wrap{position:relative;padding-bottom:56.25%;margin:0 auto 18px;max-width:880px;border-radius:6px;overflow:hidden;border:1px solid var(--border-strong);box-shadow:0 30px 80px rgba(1,23,72,0.18);background:linear-gradient(135deg,var(--navy),var(--bg-dark-2));cursor:pointer}
+  .video-poster{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;background:radial-gradient(circle at center,rgba(124,42,211,0.22),transparent 60%),linear-gradient(135deg,var(--navy),var(--bg-dark-2));padding:36px}
+  .video-poster .poster-title{font-family:'Cormorant Garamond',serif;font-size:clamp(22px,3.2vw,34px);color:var(--green-bright);font-style:italic;text-align:center;margin-bottom:26px;max-width:620px;line-height:1.3;text-wrap:balance}
+  .video-poster .poster-byline{font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:rgba(236,233,227,0.78);margin-bottom:30px;font-weight:600}
+  .video-poster .play-btn{position:relative;width:90px;height:90px;border-radius:50%;background:rgba(0,208,132,0.95);display:flex;align-items:center;justify-content:center;box-shadow:0 12px 40px rgba(0,0,0,0.4);transition:all 0.3s ease;border:3px solid rgba(255,255,255,0.95)}
+  .video-wrap:hover .video-poster .play-btn{transform:scale(1.08);background:var(--green-bright)}
+  .video-poster .play-btn::after{content:"";display:block;width:0;height:0;border-style:solid;border-width:15px 0 15px 26px;border-color:transparent transparent transparent var(--navy);margin-left:6px}
+  .video-poster .video-source-label{position:absolute;bottom:14px;right:18px;font-size:10px;letter-spacing:0.16em;text-transform:uppercase;color:rgba(236,233,227,0.85);background:rgba(0,0,0,0.35);padding:6px 12px;border-radius:2px}
+  .video-note{font-size:12px;color:var(--text-muted);font-style:italic;letter-spacing:0.04em;margin:0 auto 28px;max-width:680px;line-height:1.6;text-align:center}
+  .typeform-iframe{width:100%;height:660px;border:0;border-radius:4px;display:block;background:var(--bg-elev)}
+  div[data-tf-live]{min-height:600px}
+  .cta-primary{display:block;width:fit-content;margin:24px auto;padding:18px 44px;background:var(--green);color:#fff;border-radius:3px;font-size:14px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;transition:all 0.3s ease;box-shadow:0 12px 30px rgba(0,168,102,0.22)}
+  .cta-primary:hover{background:var(--green-dark);transform:translateY(-2px)}
+  .cta-secondary{display:block;width:fit-content;margin:14px auto 0;padding:13px 28px;background:transparent;color:var(--green);border:1px solid var(--border-strong);border-radius:3px;font-size:12px;font-weight:600;letter-spacing:0.12em;text-transform:uppercase;text-decoration:none;transition:all 0.3s ease}
+  .cta-secondary:hover{background:var(--accent-soft)}
+  section{padding:80px 0}
+  .section-eyebrow{font-size:11px;font-weight:600;letter-spacing:0.22em;text-transform:uppercase;color:var(--green);margin-bottom:18px;text-align:center}
+  .section-title{font-size:clamp(32px,4.5vw,52px);margin-bottom:18px;text-align:center}
+  .section-title em{color:var(--green);font-style:italic;font-weight:400}
+  .section-intro{font-size:17px;color:var(--text-secondary);max-width:720px;margin:0 auto 56px;line-height:1.7;text-align:center}
+  .section-intro em{color:var(--green);font-style:italic}
+  .who-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1000px;margin:0 auto}
+  @media(max-width:760px){.who-grid{grid-template-columns:1fr}}
+  .who-card{padding:36px 28px;background:var(--bg-card);border:1px solid var(--border);border-radius:4px;box-shadow:0 8px 24px rgba(1,23,72,0.05)}
+  .who-card .num{font-family:'Cormorant Garamond',serif;font-size:48px;color:var(--green);font-weight:600;line-height:1;margin-bottom:12px}
+  .who-card h3{font-size:22px;margin-bottom:12px;color:var(--text-primary)}
+  .who-card p{color:var(--text-secondary);font-size:14px;line-height:1.7}
+  .tracks-list{max-width:920px;margin:0 auto;display:grid;grid-template-columns:1fr;gap:22px}
+  .track{padding:40px 36px;background:var(--bg-card);border:1px solid var(--border);border-radius:4px;box-shadow:0 8px 24px rgba(1,23,72,0.05);display:grid;grid-template-columns:1fr 2.2fr;gap:32px;align-items:start}
+  @media(max-width:760px){.track{grid-template-columns:1fr;gap:18px}}
+  .track.entry{border-left:4px solid var(--green)}
+  .track.mid{border-left:4px solid var(--green-bright)}
+  .track.high{border-left:4px solid var(--purple)}
+  .track .track-tier{display:block;font-family:'Cormorant Garamond',serif;font-size:14px;color:var(--green);text-transform:uppercase;letter-spacing:0.16em;margin-bottom:8px;font-weight:600}
+  .track .track-tier.mid{color:var(--green-dark)}
+  .track .track-tier.high{color:var(--purple)}
+  .track .track-headline{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--text-primary);font-weight:600;margin-bottom:6px}
+  .track .track-headline em{color:var(--text-muted);font-style:italic;font-size:14px;font-weight:400;display:block;margin-top:4px}
+  .track h3{font-size:26px;margin-bottom:14px;color:var(--text-primary)}
+  .track p{color:var(--text-secondary);font-size:15px;line-height:1.75;margin-bottom:12px}
+  .track .program-list{margin-top:12px;font-size:13px;color:var(--text-muted);font-style:italic;line-height:1.7}
+  .track .program-list strong{color:var(--green);font-style:normal;font-weight:600}
+  .diagnostic-block{margin:60px auto 0;padding:48px 40px;background:linear-gradient(135deg,var(--bg-card),var(--accent-soft));border:1px solid var(--border-strong);border-radius:6px;max-width:880px;text-align:center;box-shadow:0 12px 40px rgba(1,23,72,0.08)}
+  .diagnostic-block .diagnostic-eyebrow{font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:var(--green);font-weight:600;margin-bottom:12px}
+  .diagnostic-block h3{font-size:30px;margin-bottom:14px;color:var(--text-primary)}
+  .diagnostic-block p{color:var(--text-secondary);font-size:16px;line-height:1.7;max-width:560px;margin:0 auto 24px}
+  .founder-block{display:grid;grid-template-columns:1fr 1.4fr;gap:48px;max-width:960px;margin:0 auto;align-items:center}
+  @media(max-width:760px){.founder-block{grid-template-columns:1fr;gap:32px}}
+  .founder-card{padding:0;background:linear-gradient(160deg,var(--navy),var(--bg-dark-2));border-radius:6px;color:var(--text-on-dark);box-shadow:0 24px 60px rgba(1,23,72,0.22);min-height:420px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;align-items:stretch;position:relative}
+  .founder-card .founder-photo{width:100%;height:340px;object-fit:cover;object-position:center 22%;display:block;filter:saturate(0.96) contrast(0.98)}
+  .founder-card .founder-photo-fallback{width:100%;height:340px;display:flex;align-items:center;justify-content:center;background:linear-gradient(135deg,var(--navy),var(--purple));color:var(--green-bright);font-family:'Cormorant Garamond',serif;font-size:120px;font-style:italic;letter-spacing:-0.02em}
+  .founder-card .founder-caption{padding:24px 28px 32px;text-align:center}
+  .founder-card .founder-name{font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:500;letter-spacing:0.04em;margin-bottom:6px;color:var(--text-on-dark)}
+  .founder-card .founder-title{font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:rgba(236,233,227,0.78);margin-bottom:14px}
+  .founder-card .founder-credentials{font-size:12px;color:rgba(236,233,227,0.85);font-style:italic;line-height:1.7;max-width:280px;margin:0 auto}
+  .founder-text{width:100%;text-align:left}
+  .founder-text .name-loc{font-size:12px;color:var(--green);letter-spacing:0.16em;text-transform:uppercase;margin-bottom:14px;font-weight:600}
+  .founder-text h3{font-size:34px;margin-bottom:20px;line-height:1.15}
+  .founder-text .key-quote{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--text-primary);font-style:italic;line-height:1.45;margin-bottom:24px;padding:20px 24px;border-left:3px solid var(--green);background:var(--accent-soft)}
+  .founder-text .key-quote em{color:var(--green);font-style:italic}
+  .founder-text p{color:var(--text-secondary);font-size:15px;line-height:1.78;margin-bottom:14px}
+  .founder-text .key-statement{font-weight:600;color:var(--text-primary);font-size:16px;margin:18px 0;line-height:1.65}
+  .founder-text ul{list-style:none;padding:0;margin:20px 0 0 0}
+  .founder-text li{padding:7px 0;color:var(--text-secondary);font-size:14px;border-bottom:1px solid var(--border);line-height:1.5}
+  .founder-text li:last-child{border-bottom:0}
+  .founder-text li::before{content:"\00b7";color:var(--green);margin-right:10px;font-weight:bold}
+  .founder-text .trust-badge{display:inline-block;margin-top:22px;padding:9px 16px;background:var(--accent-soft);border:1px solid var(--border-strong);border-radius:100px;font-size:12px;color:var(--green);letter-spacing:0.08em;font-weight:600}
+  .proof-strip{max-width:1000px;margin:0 auto;display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+  @media(max-width:760px){.proof-strip{grid-template-columns:1fr}}
+  .proof-item{padding:28px 24px;background:var(--bg-card);border:1px solid var(--border);border-radius:4px;text-align:center;box-shadow:0 6px 20px rgba(1,23,72,0.05)}
+  .proof-item .proof-headline{font-family:'Cormorant Garamond',serif;font-size:26px;color:var(--green);font-weight:600;line-height:1.15;margin-bottom:8px}
+  .proof-item .proof-meta{font-size:11px;letter-spacing:0.16em;text-transform:uppercase;color:var(--text-muted);margin-bottom:14px;font-weight:600}
+  .proof-item .proof-detail{font-size:14px;color:var(--text-secondary);line-height:1.7;font-style:italic}
+  .receipts-note{text-align:center;margin-top:36px;font-size:13px;color:var(--text-muted);font-style:italic;max-width:680px;margin-left:auto;margin-right:auto;line-height:1.7}
+  .faq{max-width:780px;margin:0 auto}
+  .faq-item{padding:26px 0;border-bottom:1px solid var(--border)}
+  .faq-item h3{font-size:21px;margin-bottom:12px;color:var(--text-primary)}
+  .faq-item p{color:var(--text-secondary);font-size:15px;line-height:1.75}
+  .form-frame{max-width:680px;margin:0 auto;padding:40px;border:1px solid var(--border-strong);border-radius:6px;background:var(--bg-card);box-shadow:0 30px 80px rgba(1,23,72,0.10)}
+  .form-frame h3{font-size:26px;margin-bottom:8px;text-align:center}
+  .form-frame p{color:var(--text-secondary);font-size:14px;text-align:center;margin-bottom:24px}
+  .final-cta-section{text-align:center;padding:100px 0}
+  .final-cta-section h2{font-size:clamp(32px,4vw,48px);margin-bottom:24px;max-width:780px;margin-left:auto;margin-right:auto;line-height:1.18}
+  .final-cta-section h2 em{color:var(--green);font-style:italic;font-weight:400}
+  .final-cta-section p{font-size:17px;color:var(--text-secondary);max-width:580px;margin:0 auto 36px;line-height:1.7}
+  .final-cta-section .tagline{margin-top:48px;font-family:'Cormorant Garamond',serif;font-style:italic;font-size:24px;color:var(--green)}
+  .application-note{font-size:13px;color:var(--text-muted);margin-top:18px;letter-spacing:0.06em;font-style:italic}
+  footer{padding:48px 0 24px;border-top:1px solid var(--border);text-align:center;color:var(--text-muted);font-size:13px;background:var(--navy)}
+  footer .footer-tagline{font-family:'Cormorant Garamond',serif;font-style:italic;font-size:16px;color:var(--text-on-dark);margin-bottom:10px;opacity:0.86}
+  footer .footer-tagline em{color:var(--green-bright);font-style:italic}
+  footer .footer-meta{font-size:12px;letter-spacing:0.04em;color:var(--text-on-dark);opacity:0.7}
+  footer .footer-disclaimer-block{margin-top:24px;padding:22px 30px;max-width:880px;margin-left:auto;margin-right:auto;border:1px solid var(--border-on-dark);border-radius:3px;background:rgba(1,23,72,0.55);text-align:left}
+  footer .footer-disclaimer-label{display:block;font-size:10px;letter-spacing:0.22em;text-transform:uppercase;color:var(--green-bright);margin-bottom:10px;font-weight:600;text-align:center}
+  footer .footer-disclaimer{font-size:12px;color:var(--text-on-dark);opacity:0.78;font-style:italic;line-height:1.7}
+  footer .footer-disclaimer strong{color:var(--green-bright);font-weight:600;font-style:normal}
+  footer .footer-build-note{margin-top:20px;font-size:11px;color:var(--text-on-dark);opacity:0.55;font-style:italic;letter-spacing:0.04em}
+</style>
+</head>
+<body>
+<!-- Founder portrait. Primary: real photo from otogomes.live CDN (oto-about-1000.jpg or og-may-7780-600.jpg). Fallback: CSS monogram "OG". -->
+<nav>
+<div class="nav-inner">
+<div class="logo">OTO Gomes<em> &middot; Tax-Aware Crypto</em></div>
+<a href="#diagnostic" class="nav-cta">Begin</a>
 </div>
-</div></section>
+</nav>
 
-<div class="divider"></div>
-
-<section><div class="container">
-<div class="eyebrow reveal">THE PROBLEM</div>
-<h2 class="reveal">The Year-One Tax Trap<br>Most Crypto Investors Hit</h2>
-<p class="reveal" style="font-size:18px">Trade rebalances, wallet transfers, swaps. Every one is a taxable event most investors never track until April.</p>
-<div class="problem-grid">
-<div class="card reveal"><div class="card-num">TRAP 01</div><h3>Basis Tracking Errors</h3><p>Exchange reports do not match wallet activity. By year-end the spreadsheet is a mess and the CPA bill triples trying to reconcile it.</p></div>
-<div class="card reveal"><div class="card-num">TRAP 02</div><h3>Short-Term Gain Surprise</h3><p>Rebalances inside a 12-month window trigger short-term capital gains, taxed as ordinary income. Most investors discover this after filing.</p></div>
-<div class="card reveal"><div class="card-num">TRAP 03</div><h3>Wallet-To-Wallet Missteps</h3><p>Some wallet moves are taxable events, some are not. The difference is structural. Most guides and most CPAs get it wrong.</p></div>
-</div>
-</div></section>
-
-<div class="divider"></div>
-
-<section><div class="container">
-<div class="eyebrow reveal">THE APPROACH</div>
-<h2 class="reveal">Tax Structuring First,<br>Crypto Positioning Second</h2>
-<div class="pillar-grid">
-<div class="card reveal"><div class="card-num">PHASE 01</div><h3>Structure</h3><p>Basis tracking, holding-period strategy, appropriate account types. Set up before any trade is recommended. The foundation that protects everything above it.</p></div>
-<div class="card reveal"><div class="card-num">PHASE 02</div><h3>Positioning</h3><p>Portfolio allocation across core holdings, narrative plays, and yield strategies. Every decision tax-aware from the start. Structure informs allocation, not the other way around.</p></div>
-<div class="card reveal"><div class="card-num">PHASE 03</div><h3>Discipline</h3><p>Quarterly rebalances timed around holding periods. Year-end tax-loss harvesting. Multi-year compounding. The discipline that separates 3-year winners from 1-year flashes.</p></div>
-</div>
-</div></section>
-
-<div class="divider"></div>
-
-<section><div class="container">
-<div class="eyebrow reveal">TESTIMONIALS</div>
-<h2 class="reveal">From Skeptics To Structured Investors</h2>
-<div class="testimonial-grid">
-<div class="testimonial reveal">
-<p>"OTO has a unique way of explaining the basics of crypto and simplifying it while making you passionate as you learn."</p>
-<div class="t-name">Dr. Seth Gerlach</div>
-</div>
-<div class="testimonial reveal">
-<p>"Working with OTO has answered all of my questions about cryptocurrency and has helped me dissolve my initial fears. I have now made thousands on my crypto investments."</p>
-<div class="t-name">Ashley Haupt</div>
-</div>
-<div class="testimonial reveal">
-<p>"The combination of financial knowledge and a personalized teaching approach is something I have not found anywhere else in the crypto space."</p>
-<div class="t-name">Dr. Joseph Yi</div>
+<section class="hero">
+<div class="container">
+<div class="eyebrow">Tax-Aware Crypto Structuring &middot; Education, Not Advice</div>
+<h1>The crypto cycle isn't the hard part. <em>The tax structure under it is.</em></h1>
+<p class="hero-sub">After 16 years in tax accounting and 14 years in crypto, what most holders skip isn't the trade. It's the structure. The rare operator overlap, taught by the educator who lived the cycle.</p>
+<p class="hero-meta"><span>16-Yr Tax Operator</span>&middot;<span>14-Yr Crypto Operator</span>&middot;<span>Private Trust + Common Law Curriculum</span></p>
+<div class="video-label">A Word From OTO</div>
+<div class="video-wrap" id="hero-video" role="button" tabindex="0" aria-label="Play a word from OTO">
+<div class="video-poster">
+<div class="poster-byline">The Rare Operator Overlap</div>
+<div class="poster-title">"Most crypto coaches teach one of three things. The reason there's a $5-10K tier is that the operator with significant holdings needs all three at once."</div>
+<div class="play-btn"></div>
+<span class="video-source-label">Hero VSL &middot; 4 Min</span>
 </div>
 </div>
-</div></section>
-
-<div class="divider"></div>
-
-<section><div class="container">
-<div class="lead-capture reveal">
-<div class="eyebrow">FREE TRAINING</div>
-<h2>The Tax-Aware Crypto Workbook</h2>
-<p style="margin:0 auto">The three common tax mistakes crypto investors make and how to fix them before year-end. Free. Delivered to your inbox.</p>
-<form class="form-row" onsubmit="event.preventDefault();alert('Check your inbox. Workbook sent.')">
-<input type="email" placeholder="Enter your email" required><button type="submit">Get The Workbook</button>
-</form>
+<p class="video-note">Hero VSL preview. Records to 4-7 minutes on Day 1 of the install and embeds across the homepage plus each tier landing.</p>
+<a href="#diagnostic" class="cta-primary">Begin With The Diagnostic</a>
+<a href="https://calendly.com/ag-copy/call-with-andrei" class="cta-secondary" target="_blank">Or Book A Working Session</a>
 </div>
-</div></section>
+</section>
 
-<div class="divider"></div>
+<section>
+<div class="container">
+<div class="section-eyebrow">Who This Is For</div>
+<h2 class="section-title">If you hold crypto, <em>and the structure under your holdings still hasn't caught up.</em></h2>
+<div class="who-grid">
+<div class="who-card">
+<div class="num">01</div>
+<h3>The Year-One Holder</h3>
+<p>You have a working position. Under $50K total. You know enough to have bought in, but the entity layer, the tax treatment, and the abundance and mindset work that lets you hold through the cycle aren't yet locked in. The foundation curriculum starts here.</p>
+</div>
+<div class="who-card">
+<div class="num">02</div>
+<h3>The Structural Holder</h3>
+<p>Your position has crossed $50K to $250K. The personal-holding default is starting to cost more than the structure under it would. The LLC layer, the trust mechanism, the asset-protection question, and the cohort accountability to install them all without procrastinating, that's the structural year of the framework.</p>
+</div>
+<div class="who-card">
+<div class="num">03</div>
+<h3>The Operator At Scale</h3>
+<p>Significant holdings. $250K and beyond. The structures, the trust, the tax-aware exit timing, the OTC connections, the estate planning, all of them need to operate together. The bespoke 1:1 engagement is built for the holder running the full sequence.</p>
+</div>
+</div>
+</div>
+</section>
 
-<section id="apply"><div class="container">
-<div class="eyebrow reveal">THE PROGRAMS</div>
-<h2 class="reveal">Three Tiers. One Foundation.</h2>
-<div class="offer-box reveal"><div class="offer-grid">
+<section style="background:linear-gradient(180deg,transparent,var(--accent-soft) 40%,transparent)">
+<div class="container">
+<div class="section-eyebrow">Three Tiers, One Framework</div>
+<h2 class="section-title">A clear path for the stage you're in.</h2>
+<p class="section-intro">Year one holders start at the foundation. Years two to four run the cohort. Year three and beyond run the full sequence bespoke. <em>The diagnostic routes you to the right tier in ninety seconds.</em></p>
+<div class="tracks-list">
+
+<div class="track entry">
 <div>
-<div class="offer-price">Application Based<small>Payment plans available at every tier. Not financial or tax advice.</small></div>
-<p style="margin-top:16px">Three tiers inside the Crypto Freedom system. Crypto Made Easy for self-paced learners starting their crypto journey. Crypto Freedom Circle for group mentorship, weekly calls, and community accountability. Private 1-on-1 for clients with larger portfolios or complex structuring needs. All application-based. Pricing discussed after application so the right tier matches your situation.</p>
-<ul class="feature-list">
-<li>Crypto Made Easy: 22+ video tutorials, private community, lifetime access, live Q&A</li>
-<li>Crypto Freedom Circle: 82 videos, 10 modules, 3 check-in calls with OTO, weekly group calls, Telegram</li>
-<li>1-on-1 Mentorship: 6-12 weeks, weekly calls, 24/7 Telegram, custom portfolio setup, OTC connections</li>
-<li>Tax-first structuring built into every tier</li>
-<li>Payment plans available across all programs</li>
-<li>Educational content only. Your CPA and financial advisor remain the decision-makers.</li>
+<span class="track-tier">Entry Tier</span>
+<div class="track-headline">Crypto Made Easy<em>Self-paced course &middot; public pricing &middot; foundation curriculum</em></div>
+</div>
+<div>
+<h3>For The Year-One Holder Building The Foundation</h3>
+<p>The foundation curriculum for crypto holders building toward their first $50K position. 22+ video tutorials, lifetime access, private community, live Q&amp;A on Fridays. Covers the entity layer, the personal-versus-entity decision, position sizing fundamentals, and the abundance and mindset work that lets you ride the cycle without selling at the bottom.</p>
+<p class="program-list"><strong>Includes:</strong> Foundation curriculum &middot; Lifetime access &middot; Private community &middot; Live Q&amp;A on Fridays &middot; Workbook and templates</p>
+</div>
+</div>
+
+<div class="track mid">
+<div>
+<span class="track-tier mid">Mid Tier</span>
+<div class="track-headline">Crypto Freedom Circle<em>10-week cohort &middot; application-only &middot; pricing band confirmed at intake</em></div>
+</div>
+<div>
+<h3>For The Holder Ready For Cohort Accountability + Trust Structuring</h3>
+<p>The structural year of the framework. 10 modules, 82 videos, weekly group calls, three individual 1:1 check-ins, Telegram community, MasterHeart advanced trust and common law curriculum. Built around the holder at $50K to $250K crossing into the structural tiers.</p>
+<p class="program-list"><strong>Includes:</strong> 10 modules &middot; 82 videos &middot; Weekly group calls with OTO &middot; 3 individual 1:1 check-ins &middot; Telegram community &middot; MasterHeart trust + common law deep curriculum</p>
+</div>
+</div>
+
+<div class="track high">
+<div>
+<span class="track-tier high">High Tier</span>
+<div class="track-headline">Private 1:1 Mentorship<em>Bespoke engagement &middot; application-only &middot; pricing confirmed at intake</em></div>
+</div>
+<div>
+<h3>For The Operator Running The Full Sequence</h3>
+<p>The bespoke engagement for the holder at $250K and beyond. Custom portfolio review, structured trust and common law curriculum tailored to your stage, OTC connections for large positions, weekly or biweekly calls, 24/7 Telegram with OTO directly. The full sequence, run alongside an operator who has lived the cycle.</p>
+<p class="program-list"><strong>Includes:</strong> Custom portfolio review &middot; Trust + common law structuring tailored &middot; OTC connections for large positions &middot; Weekly cadence &middot; 24/7 Telegram with OTO</p>
+</div>
+</div>
+
+</div>
+
+<div class="diagnostic-block" id="diagnostic">
+<div class="diagnostic-eyebrow">90-Second Route Map</div>
+<h3>Three questions. One clear next step.</h3>
+<p>Where you are in the cycle matters more than which tier name appeals first. The diagnostic routes you to the foundation, the cohort, or the bespoke engagement based on your stage.</p>
+<a href="#apply" class="cta-primary">Take The Diagnostic</a>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="section-eyebrow">About OTO</div>
+<h2 class="section-title">From tax accountant to crypto operator. <em>The rare operator overlap.</em></h2>
+<div class="founder-block">
+<div class="founder-card">
+<!-- Founder portrait. Primary photo from otogomes.live (oto-about-1000.jpg). Fallback: monogram below if remote image fails. Swap to /proof/oto-portrait.jpg once downloaded locally. -->
+<div class="founder-photo-fallback" aria-label="OG monogram (founder portrait fallback)">OG</div>
+<div class="founder-caption">
+<div class="founder-name">OTO Gomes</div>
+<div class="founder-title">Money Mentor + Crypto Coach</div>
+<div class="founder-credentials">California &middot; 16-Yr Tax Operator &middot; 14-Yr Crypto Operator &middot; Host of <em>The OTO Gomes Crypto Show</em></div>
+</div>
+</div>
+<div class="founder-text">
+<div class="name-loc">OTO Gomes &middot; Founder &middot; California</div>
+<h3>About OTO</h3>
+<div class="key-quote">"I've been in tax accounting since I was 16 and in crypto since 2013. <em>The structures I run now are the structures I should have had when I lost $120K in the 2008 crash.</em>"</div>
+<p>OTO grew up in his family's tax accounting business from age 16. In 2008 he watched $120K disappear in the real estate crash and walked away with the discipline that came from the loss. In 2013 he bought his first crypto position. In 2016 his divorce settlement put $20K into the market.</p>
+<p class="key-statement">Three years later that position was around $17 million. The framework he teaches now is the one he didn't have when he started. The structure under the holdings matters more than the holdings themselves.</p>
+<ul>
+<li>16 years tax accounting (family business since age 16)</li>
+<li>14 years crypto operating (since 2013)</li>
+<li>Private trust + common law structuring curriculum</li>
+<li>Host of <em>The OTO Gomes Crypto Show</em></li>
+<li>Guest on The Freedom People, NYC Podcast Network, The Way Forward, Conscious Initiatives</li>
+<li>California-based educator (born in Brazil, immigrated at age 8)</li>
 </ul>
-</div>
-<div><div style="background:rgba(16,185,129,.08);border:1px solid rgba(16,185,129,.2);border-radius:16px;padding:32px;text-align:center">
-<div class="eyebrow">THE STORY</div>
-<h3 style="margin-bottom:12px">$20K After A Divorce.<br>~$17M In Three Years.</h3>
-<p style="margin:0 auto 24px">Not from moonshots. From structured positioning, tax-aware rebalancing, and holding discipline through 40-60% drawdowns. 14 years of crypto experience before the first dollar went in. Past performance does not indicate future results.</p>
-<a href="#" class="cta-primary" style="width:100%">Apply Now</a>
-</div></div>
-</div></div>
-</div></section>
-
-<div class="divider"></div>
-
-<section><div class="container">
-<div class="bio">
-<div class="bio-img reveal">[OTO's photo]</div>
-<div class="reveal">
-<div class="eyebrow">ABOUT OTO</div>
-<h2>The Rare Combination.<br>Tax Plus Crypto, Both Decades Deep.</h2>
-<p style="font-size:17px;margin-top:20px">Born in Brazil, moved to the US at eight. Started in his family's tax accounting business at 16. Spent 16 years learning the tax code before crypto existed as an asset class. Got into crypto in 2013 when most accountants were calling it a fad.</p>
-<p style="margin-top:16px">After a divorce in 2016, invested $20,000 into crypto with 14 years of experience and a tax-first structure behind every position. That portfolio grew to approximately $17 million in three years. Now teaches the structural approach, not the speculation, to over 2,500 community members through Crypto Freedom Academy.</p>
-<p style="margin-top:16px;font-size:14px;color:var(--muted)">Past performance does not indicate future results. Not financial or tax advice.</p>
+<span class="trust-badge">Educator &middot; Not A Registered Tax Advisor Or Financial Advisor</span>
 </div>
 </div>
-</div></section>
-
-<div class="divider"></div>
-
-<section><div class="container" style="max-width:820px">
-<div class="eyebrow reveal">FAQ</div>
-<h2 class="reveal">Common Questions</h2>
-<div style="margin-top:40px">
-<div class="faq-item reveal" onclick="this.classList.toggle('open')"><div class="faq-q"><span>Is this financial or tax advice?</span><div class="faq-plus"></div></div><div class="faq-a"><p>No. Everything taught inside the Academy, Circle, and 1-on-1 is educational. Your own financial advisor and CPA remain the decision-makers for your specific situation. We provide structure and frameworks, not personalized advice.</p></div></div>
-<div class="faq-item reveal" onclick="this.classList.toggle('open')"><div class="faq-q"><span>How much does it cost?</span><div class="faq-plus"></div></div><div class="faq-a"><p>Crypto Made Easy starts with a one-time investment. Premium tiers are application-based with payment plans available. Pricing is discussed after application because the appropriate tier varies by portfolio size and structuring needs.</p></div></div>
-<div class="faq-item reveal" onclick="this.classList.toggle('open')"><div class="faq-q"><span>I already have a CPA. Why do I need this?</span><div class="faq-plus"></div></div><div class="faq-a"><p>Most CPAs understand tax. Very few understand crypto mechanics: wallet transfers, staking rewards, DeFi yield, cross-chain bridges. OTO bridges the gap between tax expertise and crypto knowledge so you can work with your CPA more effectively.</p></div></div>
-<div class="faq-item reveal" onclick="this.classList.toggle('open')"><div class="faq-q"><span>How is this different from a regular crypto course?</span><div class="faq-plus"></div></div><div class="faq-a"><p>Tax is built in. Most crypto courses teach trade setups and ignore the tax treatment that eats a significant portion of the return. OTO teaches with 16 years of tax background informing every positioning decision.</p></div></div>
-<div class="faq-item reveal" onclick="this.classList.toggle('open')"><div class="faq-q"><span>Can I listen before I apply?</span><div class="faq-plus"></div></div><div class="faq-a"><p>Yes. The Oto Gomes Crypto Show is on Spotify and Apple Podcasts. Guest appearances on The Freedom People and The Way Forward cover the tax-plus-crypto angle in depth. Listen first. I would rather you be fully informed than partially convinced.</p></div></div>
 </div>
-<div class="risk-disclosure"><p><strong style="color:var(--text)">Disclaimer:</strong> All content on this site is educational and general in nature. Nothing here constitutes personalized financial, investment, or tax advice. Cryptocurrency investments are volatile and carry substantial risk of loss. Past performance does not indicate future results. Student outcomes described are reported and not typical. Consult your own licensed financial advisor and tax professional before acting on anything taught here.</p></div>
-</div></section>
+</section>
 
-<section style="text-align:center"><div class="container">
-<h2 class="reveal">Ready To Structure Correctly?</h2>
-<p class="reveal" style="margin:20px auto 40px">Start with the free workbook. Decide after if the Academy, Circle, or 1-on-1 fits.</p>
-<a href="#apply" class="cta-primary reveal">Apply Now</a>
-</div></section>
+<section style="background:linear-gradient(180deg,transparent,var(--purple-soft) 40%,transparent)">
+<div class="container">
+<div class="section-eyebrow">A Note On Receipts</div>
+<h2 class="section-title">The proof is in the holders, <em>not the page.</em></h2>
+<p class="section-intro">The deeper proof lives in the cohort of <em>Crypto Freedom Circle</em> graduates, the 1:1 mentorship engagements, the podcast catalogue of <em>The OTO Gomes Crypto Show</em>, the testimonials block on the live site, and the trust + common law curriculum inside MasterHeart.</p>
+<div class="proof-strip">
+<div class="proof-item">
+<div class="proof-headline">16 + 14 Years</div>
+<div class="proof-meta">Tax Accounting + Crypto Operating</div>
+<div class="proof-detail">The rare operator overlap. Tax accounting since age 16 in the family business. Crypto operating since 2013. The bridge between the two is the framework taught across the tiers.</div>
+</div>
+<div class="proof-item">
+<div class="proof-headline">2,500+ Community</div>
+<div class="proof-meta">Across CME + Circle + Past Cohorts</div>
+<div class="proof-detail">Community size across the foundation curriculum, the cohort graduates, and the private mentorship engagements. Reach is real; structure under the reach is the install.</div>
+</div>
+<div class="proof-item">
+<div class="proof-headline">The Podcast Catalogue</div>
+<div class="proof-meta"><em>The OTO Gomes Crypto Show</em> &middot; Guest Spots</div>
+<div class="proof-detail">Owned podcast plus guest appearances across The Freedom People, NYC Podcast Network, The Way Forward, Conscious Initiatives. Long-form operator-to-holder conversations on tax-aware crypto structuring.</div>
+</div>
+</div>
+<p class="receipts-note">Named testimonials below, sourced from the live testimonials block on otogomes.live. Outcomes vary by holder; results are not typical. See compliance footer.</p>
+<!-- Real testimonials sourced 2026-05-13 from otogomes.live (home) and /cryptofreedomcircle/. Verified by direct HTML grep. Attribution links present on live site. -->
+<div style="margin-top:48px;display:grid;grid-template-columns:repeat(3,1fr);gap:24px;max-width:1080px;margin-left:auto;margin-right:auto">
+<div style="padding:32px 28px;background:var(--bg-card);border:1px solid var(--border);border-radius:4px;font-style:italic;color:var(--text-secondary);font-size:14px;line-height:1.7">
+"I deeply appreciate Oto's expertise. The program expanded my perspective immensely on blockchain and crypto."
+<div style="margin-top:18px;font-style:normal;color:var(--green);font-size:13px;font-weight:600;letter-spacing:0.04em">- Miles Grimes</div>
+<div style="font-style:normal;color:var(--text-muted);font-size:12px;margin-top:2px">Crypto Freedom Circle student</div>
+</div>
+<div style="padding:32px 28px;background:var(--bg-card);border:1px solid var(--border);border-radius:4px;font-style:italic;color:var(--text-secondary);font-size:14px;line-height:1.7">
+"Oto's deep listening skills and personalized support made the program. The mindset and money work was as valuable as the crypto education."
+<div style="margin-top:18px;font-style:normal;color:var(--green);font-size:13px;font-weight:600;letter-spacing:0.04em">- Maryl Petreccia</div>
+<div style="font-style:normal;color:var(--text-muted);font-size:12px;margin-top:2px">Crypto Freedom Circle graduate</div>
+</div>
+<div style="padding:32px 28px;background:var(--bg-card);border:1px solid var(--border);border-radius:4px;font-style:italic;color:var(--text-secondary);font-size:14px;line-height:1.7">
+"OTO's program helped me dissolve my initial fears around crypto. I've now made thousands on my crypto investments."
+<div style="margin-top:18px;font-style:normal;color:var(--green);font-size:13px;font-weight:600;letter-spacing:0.04em">- Dr. Brad Campbell</div>
+<div style="font-style:normal;color:var(--text-muted);font-size:12px;margin-top:2px">Crypto Freedom Circle graduate</div>
+</div>
+</div>
+</div>
+</section>
 
-<footer class="footer"><div class="container"><p>&copy; 2026 OTO Gomes. Educational content only. Not financial or tax advice.</p></div></footer>
+<section>
+<div class="container">
+<div class="section-eyebrow">FAQ</div>
+<h2 class="section-title">Common questions, <em>before applying.</em></h2>
+<div class="faq">
+<div class="faq-item"><h3>How is this different from the podcast, the IG content, and the free workbook?</h3><p>The IG content is the daily cadence. The podcast is the long-form conversation. The workbook is the surface introduction. Crypto Made Easy, the Freedom Circle, and the 1:1 are the install. Same framework, turned into modules, weekly cadence, structured trust curriculum, and operator work you can run on a Monday.</p></div>
+<div class="faq-item"><h3>Foundation, cohort, or bespoke. Which tier is for me?</h3><p>Foundation if your position is under $50K and you're building the entity layer plus the mindset work that lets you hold through the cycle. Cohort if your position is $50K to $250K and you want the structural year with cohort accountability. Bespoke if your position is $250K and beyond and you want the full sequence run alongside the operator. The diagnostic routes you in ninety seconds.</p></div>
+<div class="faq-item"><h3>Is this personalized tax or financial advice?</h3><p>No. OTO is an educator. He is not a registered tax advisor or financial advisor. The curriculum is educational. Your own licensed tax professional or financial advisor handles personalized application of any structure discussed. See compliance footer.</p></div>
+<div class="faq-item"><h3>How fast will I see results?</h3><p>The framework is structural and long-game. The foundation curriculum installs the entity layer and mindset work inside the first 30 days. The cohort installs the structural year over 10 weeks. The bespoke 1:1 runs the full sequence over 6-12 months. Crypto returns vary by cycle and holder; results are not typical.</p></div>
+<div class="faq-item"><h3>What's the time commitment?</h3><p>Crypto Made Easy is self-paced. Crypto Freedom Circle is 10 weeks with weekly group calls. The 1:1 is bespoke, typically 6-12 months. The trust + common law module (MasterHeart) inside Circle is 10 additional weeks of advanced curriculum.</p></div>
+<div class="faq-item"><h3>How does the investment work across the tiers?</h3><p>Stage-specific and confirmed at intake. Crypto Made Easy has public pricing on its own page. Crypto Freedom Circle and the 1:1 Mentorship are application-only because the fit and stage conversation matters more than the figure at those tiers.</p></div>
+<div class="faq-item"><h3>Where are you based?</h3><p>California. Born in Brazil. Cohorts and 1:1 engagements are global. Pacific time zone for live calls.</p></div>
+<div class="faq-item"><h3>What if I'm not ready for any tier yet?</h3><p>Download the free workbook and the 7-tax-structures guide. Listen to a few podcast episodes. The framework will be here when the position size or the stage fits. No pressure on the timeline.</p></div>
+</div>
+</div>
+</section>
 
-<script>const obs=new IntersectionObserver(e=>e.forEach(x=>x.isIntersecting&&x.target.classList.add('in')),{threshold:.1});document.querySelectorAll('.reveal').forEach(e=>obs.observe(e));</script>
-<a href="https://calendly.com/andreicopy/15min" target="_blank" rel="noopener" style="position:fixed;bottom:24px;right:24px;background:linear-gradient(135deg,#c9973a 0%,#e2b96a 100%);color:#0a0805;padding:14px 26px;border-radius:10px;font-weight:700;text-decoration:none;font-family:Inter,system-ui,sans-serif;font-size:14px;box-shadow:0 10px 30px rgba(0,0,0,.35);z-index:9999;letter-spacing:.02em;">Book A 15-Min Call &rarr;</a>
-</body></html>
+<section id="apply" style="background:linear-gradient(180deg,transparent,var(--accent-soft) 40%,transparent)">
+<div class="container-narrow">
+<div class="section-eyebrow">Begin</div>
+<h2 class="section-title">Three questions. <em>One clear next step.</em></h2>
+<p class="section-intro">The diagnostic routes you to the foundation, the cohort, or the bespoke engagement. Ninety seconds. No setter calls.</p>
+<div class="form-frame">
+<h3>The Diagnostic &middot; 90 Seconds</h3>
+<p>Three questions about where you are in the cycle. The route map comes back instantly.</p>
+<noscript><p style="text-align:center;color:var(--text-muted);font-style:italic">Diagnostic loads when JavaScript is enabled. In the meantime, email <a href="mailto:hello@otogomes.live" style="color:var(--green)">hello@otogomes.live</a>.</p></noscript>
+<div data-tf-live="01KQ_PLACEHOLDER_DIAGNOSTIC" style="min-height:520px;display:flex;align-items:center;justify-content:center;border:1px dashed var(--border-strong);border-radius:4px;color:var(--text-muted);font-style:italic">3-question Typeform diagnostic installs Day 2 of the install. <br>Day-0 placeholder.</div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container-narrow">
+<div class="final-cta-section">
+<h2>Tax-aware crypto. <em>The rare operator overlap.</em></h2>
+<p>Ninety seconds for the diagnostic. After you submit, you land on the tier that fits your stage. No setter calls. No back-and-forth. A conversation, not a pitch.</p>
+<a href="#apply" class="cta-primary">Take The Diagnostic</a>
+<a href="https://calendly.com/ag-copy/call-with-andrei" class="cta-secondary" target="_blank">Or Book A Working Session</a>
+<p class="application-note">90-second diagnostic &middot; tier-routed &middot; no setter calls</p>
+<p class="tagline">Education, <em>not advice.</em></p>
+</div>
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p class="footer-tagline">OTO Gomes &middot; California &middot; <em>Tax-aware crypto structuring. Education, not advice.</em></p>
+<p class="footer-meta">OTO Gomes Crypto LLC &middot; 2026</p>
+<div class="footer-disclaimer-block">
+<span class="footer-disclaimer-label">Compliance + Outcomes Disclaimer</span>
+<p class="footer-disclaimer"><strong>Educational content only.</strong> OTO Gomes is an educator and is not a registered tax advisor or financial advisor. The curriculum, the podcast, this site, and any associated content is educational and informational in nature and does not constitute personalized tax, legal, financial, or investment advice. <strong>Crypto trading involves risk of substantial or total loss.</strong> Past performance is not indicative of future results. Outcomes depend on individual market conditions, position sizing, regulatory environment, qualification, and execution. Specific tax structures, trust mechanisms, and common law concepts discussed are publicly available frameworks and should be applied only after consultation with a licensed tax professional, financial advisor, attorney, or estate planner in your jurisdiction. <strong>Results are not typical.</strong> The founder narrative referenced on this page (including any reference to specific dollar figures or position growth) is the founder's own personal experience and is not representative of typical buyer outcomes. Crypto regulation varies by jurisdiction and is subject to change. Holders should comply with local tax filing obligations including IRS reporting for US residents and equivalent obligations in their country of residence. This site does not provide legal, tax, or investment recommendations to any specific individual. Subject to OTO Gomes Crypto LLC's full Terms of Service.</p>
+</div>
+<p class="footer-build-note">Sample landing page built by AG1 Consulting. Brand colours and copy confirmed with OTO on Day 1 of the install.</p>
+</div>
+</footer>
+
+<script>
+(function(){
+  var v = document.getElementById('hero-video');
+  if(!v) return;
+  function scrollToApply(){
+    var el = document.getElementById('apply');
+    if(el) el.scrollIntoView({behavior:'smooth',block:'start'});
+  }
+  v.addEventListener('click', scrollToApply);
+  v.addEventListener('keydown', function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); scrollToApply(); }});
+})();
+</script>
+</body>
+</html>
